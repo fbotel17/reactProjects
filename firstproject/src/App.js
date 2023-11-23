@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import logo from './téléchargement.jpg';
 
 import './App.css';
 
@@ -7,19 +7,27 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <h4>
-          Fau Aka Le BOSS 
-        </h4>
-        
-        <p>
-          Nom d'utilisateur :  
-          <input type="text"></input>
-        </p>
-        <p>
-          Mot de passe :  
-          <input type="password"></input>
-        </p>
-        
+     
+        <div class="login-box">
+  <h2>Login</h2>
+  <form>
+    <div class="user-box">
+      <input type="text" name="" required=""/>
+      <label>Username</label>
+    </div>
+    <div class="user-box">
+      <input type="password" name="" required=""/>
+      <label>Password</label>
+    </div>
+    <a href="#">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      Submit
+    </a>
+  </form>
+</div>
       </header>
     </div>
   );
