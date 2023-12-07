@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Chield from './Chield';
 
 function Formulaire(){
 
@@ -44,8 +45,11 @@ function Formulaire(){
                     />
                 </label>
                 <br />
+                <Chield login={login} password={password} />
+
                 <button type="submit">Submit</button>
             </form>
+
             {color === 'red' && <p>Mot de passe incorrect, veuillez réessayer.</p>}
 
             {color === 'green' && <p>Vous etes connecté</p>}
