@@ -4,14 +4,17 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import FauComposant from './composant/fauComposant';
-import Ex19 from './composant/ex19';
+import Ex29 from './composant/ex29';
+import Formulaire from './composant/Formulaire';
+import ExempleBoucle from './composant/ExempleBoucle';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Ex19/>
+    {/* <Ex29/> */}
+    <Formulaire/>
     {/* <FauComposant couleur={'red'} /> */}
-    
+    {/* <ExempleBoucle/> */}
   </React.StrictMode>
 );
 

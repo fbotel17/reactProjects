@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Ex19(){
+function Ex29(){
     const login="Fau aka le BOSS";
     const password="password";
     const User = {
@@ -28,4 +28,4 @@ function Ex19(){
     );
 };
 
-export default Ex19;
+export default Ex29;
