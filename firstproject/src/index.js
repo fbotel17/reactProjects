@@ -4,12 +4,13 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import FauComposant from './composant/fauComposant';
+import Ex19 from './composant/ex19';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
-    <FauComposant couleur={'red'} />
+    <Ex19/>
+    {/* <FauComposant couleur={'red'} /> */}
     
   </React.StrictMode>
 );

@@ -8,10 +8,14 @@ const FauComposant = ({ couleur }) => {
         setColor(randomColor);
     };
 
+    
+
+    const login="Fau aka le BOSS";
+
     return (
         <div>
             <div onMouseOver={changeColor} style={{ color }}>
-                Je suis un composant
+                Je suis un composant {login}
             </div>
         </div>
     );
